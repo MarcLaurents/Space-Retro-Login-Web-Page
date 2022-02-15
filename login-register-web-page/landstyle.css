@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Orbitron&family=Press+Start+2P&display=swap');
+/* 
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-image: url(/img/8bit-starts-paper.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.landbox {
+  width: 300px;
+  color: white;
+  padding: 20px 40px 20px 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #191919;
+  text-align: center;
+}
+.landbox h1 {
+  color: #2ecc71;
+  text-transform: uppercase;
+  font-family: 'Chakra Petch', sans-serif;
+  width: 16.8ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 1.8em;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  40% {
+    border-color: transparent;
+  }
+}
+.box input[type='submit'] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  width: 150px;
+  align-items: center;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+}
+.box input[type='submit']:hover {
+  background-color: #2ecc71;
+}

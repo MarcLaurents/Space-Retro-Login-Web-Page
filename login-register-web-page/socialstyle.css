@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Orbitron&family=Press+Start+2P&display=swap');
+/* 
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-image: url(/img/8bit-starts-paper.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.socialhub {
+  width: 300px;
+  padding: 20px 40px 20px 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #191919;
+  text-align: center;
+}
+.socialhub h1 {
+  color: #2ecc71;
+  text-transform: uppercase;
+  font-family: 'Chakra Petch', sans-serif;
+  width: 15ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 2em;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  40% {
+    border-color: transparent;
+  }
+}
+.socialhub input[name='backbutton'] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 40px;
+  width: 150px;
+  align-items: center;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+}
+.socialhub input[name='backbutton']:hover {
+  background-color: #3498db;
+}
+#logoutbutton {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ba2e2efc;
+  padding: 14px 40px;
+  width: 150px;
+  align-items: center;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+}
+#logoutbutton:hover {
+  background-color: #ba2e2efc;
+}
+.linkedinbutton {
+  color: #0e76a8;
+  display: inline-block;
+  text-decoration: none;
+  margin: 15px 4px;
+  position: relative;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.githubbutton {
+  color: #827878;
+  display: inline-block;
+  text-decoration: none;
+  margin: 15px 4px;
+  position: relative;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.whatsappbutton {
+  color: #25d366;
+  display: inline-block;
+  text-decoration: none;
+  margin: 15px 4px;
+  position: relative;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.linkedinbutton:hover {
+  color: #fff;
+  opacity: 0.9;
+  text-shadow: 2px 3px 5px #00d0ff;
+  top: -3px;
+}
+.githubbutton:hover {
+  color: #fff;
+  opacity: 0.9;
+  text-shadow: 2px 3px 5px #00d0ff;
+  top: -3px;
+}
+.whatsappbutton:hover {
+  color: #fff;
+  opacity: 0.9;
+  text-shadow: 2px 3px 5px #00d0ff;
+  top: -3px;
+}
